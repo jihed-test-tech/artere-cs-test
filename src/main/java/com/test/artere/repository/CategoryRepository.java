@@ -1,0 +1,7 @@
+package com.test.artere.repository;
+
+import com.test.artere.model.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}
